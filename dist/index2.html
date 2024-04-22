@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Document</title>
+</head>
+<body class="bg-black">
+    <!-- grid for equal two  elements -->
+
+    <div class="grid grid-cols-2  gap-4 m-4 sm:grid-cols-2">
+        <div class="rounded bg-orange-500 min-h-[100px]">1</div>
+        <div class="rounded bg-teal-500 min-h-[100px]">2</div>
+    </div>
+
+<!-- grid for equal three elements -->
+
+    <div class="grid   gap-4 m-4 sm:grid-cols-3">
+        <div class="rounded bg-orange-500 min-h-[100px]"></div>
+        <div class="rounded bg-teal-500 min-h-[100px]"></div>
+        <div class="rounded bg-green-500 min-h-[100px]"></div>
+    </div>
+
+<!-- grid for unequal two elemnts . Big screen divided in 12 equal parts and small screen divided in 6 equal parts . -->
+
+    <div class="grid  gap-4 m-4 sm:grid-cols-12">
+        <div class="rounded bg-orange-500 min-h-[100px] sm:col-span-4"></div>
+        <div class="rounded bg-teal-500 min-h-[100px] col-span-8"></div>
+    </div>
+
+    <!-- grid layout for unequal three elements -->
+
+    <div class="grid  gap-4 m-4 sm:grid-cols-12">
+        <div class="rounded bg-orange-500 min-h-[100px] sm:col-span-4 sm:block hidden"></div>
+        <div class="rounded bg-teal-500 min-h-[100px] col-span-6"></div>
+        <div class="rounded bg-green-500 min-h-[100px] col-span-2 sm:block hidden"></div>
+    </div>
+
+</body>
+</html>
